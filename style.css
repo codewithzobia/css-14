@@ -1,0 +1,489 @@
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+header{
+     color: white;
+     background-color: #1C1818;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 3%;
+}
+.List-1{
+     display: flex;
+     list-style: none;
+}
+.List-1>a>li{
+     margin-right: 100px;
+}
+.List-1>a{
+     color: white;
+     text-decoration: none;
+     font-weight: 400;
+     font-size: 16px;
+}
+.List-2{
+     display: flex;
+     list-style: none;
+     justify-content: end;
+     align-items: center;
+     float: right;
+     margin-left: 90%;
+     margin-top: -3%;
+     box-sizing: border-box;
+     padding: 0;
+}
+.List-2>div{
+     margin-left: -40%;
+}
+.List-2>div>a>li>svg{
+     fill: grey;
+}
+.List-2-1>svg{
+     width: 15% !important;
+     height: 15% !important;
+}
+.List-2-2>svg{
+     width: 17% !important;
+     height: 17% !important;
+}
+.List-2-3>svg{
+     width: 30% !important;
+     height: 30% !important;
+
+}
+.List-2-4>svg{
+     width: 22% !important;
+     height: 22% !important;
+}
+.Div-1{
+     padding: 3% 5%;
+     box-sizing: border-box;
+     width: 100%;
+     background-color: white;
+     vertical-align: middle;
+     align-items: center;
+     align-self: center;
+     justify-content: center;
+     justify-items: center;
+     justify-self: center;
+}
+.Icon-Image{
+     margin-top: -4%;
+}
+.Div-1>ul{
+     display: flex;
+     list-style: none;
+     float: right;
+     margin-right: 5%;
+     margin-top: -1%;
+}
+.Div-1>ul>li{
+     margin-left: 5%;
+     cursor: pointer;
+}
+.Div-1>ul>li:hover{
+     color: #ef3b0e;
+}
+.Div-1>ul>li>select{
+     cursor: pointer;
+     border: none;
+}
+.Div-1>ul>li>select:hover{
+     color: #ef3b0e;
+}
+.Div-1>ul>li>select>option{
+     cursor: pointer;
+}
+.Div-1>ul>li>select>option:hover{
+     color: #ef3b0e;
+}
+.Dog-Div{
+     background-image: url(12th\ Assignment\ Web\ &\ App\ \(CSS\)\ Image\ 2.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 100% 70%;
+     padding-left: 7%;
+     padding-top: 15%;
+     margin-top: -13%;
+     padding-bottom: 0;
+}
+
+.Dog-Div-1>.Dog-Div-1-Para-1{
+     color: white;
+     font-size: 75px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.Dog-Div-1>.Dog-Div-1-Para-1>span{
+     font-weight: 800;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.Dog-Div-1-Para-2{
+     margin-top: -5%;
+     color: white;
+     width: 30%;
+     line-height: 32px;
+}
+.Dog-Div-1>button{
+     color: #ff3500;
+     background-color: white;
+     border: 1px solid transparent;
+     padding: 17px 50px;
+     border-radius: 30px;
+     font-size: 16px;
+     font-weight: 500;
+     cursor: pointer;
+}
+.Dog-Div-1>button:hover{
+     background-color: #ef3b0e;
+     color: white;
+}
+.Dog-Div-2{
+     margin-top: -22%;
+     margin-left: 19%;
+}
+.Services{
+     font-size: 50px;
+     font-weight: 700;
+     text-align: center;
+}
+.Service-Para{
+     color: grey;
+     text-align: center;
+     margin-top: -2%;
+}
+.Main-3-Divs{
+     margin-top: 5%;
+     display: flex;
+     justify-content: center;
+}
+.Main-1-Div{
+     text-align: center;
+     width: 20%;
+     border: 1px solid #ef3b0e;
+     border-radius: 5px;
+     padding: 3%;
+     cursor: pointer;
+}
+.Main-1-Div:hover{
+     background-color: white;
+     border: none;
+     box-shadow: 0 0 6px black;
+}
+.Main-1-Div>span{
+     font-size: 25px;
+     font-weight: 600;
+}
+.Main-1-Div>p{
+     color: grey;
+     line-height: 30px;
+}
+.Main-2-Div{
+     text-align: center;
+     width: 20%;
+     border: 1px solid #ef3b0e;
+     border-radius: 5px;
+     padding: 3%;
+     margin-left: 5%;
+     cursor: pointer;
+}
+.Main-2-Div:hover{
+     background-color: white;
+     border: none;
+     box-shadow: 0 0 6px black;
+}
+.Main-2-Div>span{
+     font-size: 25px;
+     font-weight: 600;
+}
+.Main-2-Div>p{
+     color: grey;
+     line-height: 30px;
+}
+.Main-3-Div{
+     text-align: center;
+     width: 20%;
+     border: 1px solid #ef3b0e;
+     border-radius: 5px;
+     padding: 3%;
+     margin-left: 5%;
+     cursor: pointer;
+}
+.Main-3-Div:hover{
+     background-color: white;
+     border: none;
+     box-shadow: 0 0 6px black;
+}
+.Main-3-Div>span{
+     font-size: 25px;
+     font-weight: 600;
+}
+.Main-3-Div>p{
+     color: grey;
+     line-height: 30px;
+}
+.Cat-Div{
+     margin-top: 10%;
+     margin-left: 3%;
+     display: flex;
+}
+.Cat-Div-2{
+     margin-top: 6%;
+     width: 35%;
+     margin-left: 8%;
+}
+.Para-1{
+     font-size: 50px;
+}
+.Para-1>span{
+     font-weight: 700;
+}
+.Para-2{
+     color: grey;
+     line-height: 30px;
+}
+.Cat-Div-2>button{
+     color: white;
+     background-color: #ef3b0e;
+     cursor: pointer;
+     border: none;
+     font-size: 18px;
+     font-weight: 500;
+     padding: 17px 55px;
+     margin-top: 10%;
+     border-radius: 30px;
+}
+.Adopting-Div{
+     display: flex;
+     margin-left: 7%;
+     margin-right: 7%;
+     margin-top: 3%;
+}
+.Adopting-Div-1-Para-1{
+     font-size: 50px;
+     color: #191D34;
+}
+.Adopting-Div-1-Para-1>span{
+     font-weight: 700;
+}
+.Adopting-Div-1-Para-2{
+     color: grey;
+     line-height: 30px;
+}
+.Adopting-Div-1>button{
+     color: white;
+     background-color: #ef3b0e;
+     cursor: pointer;
+     border: none;
+     font-size: 18px;
+     font-weight: 500;
+     padding: 17px 55px;
+     margin-top: 10%;
+     border-radius: 30px;
+}
+.John-Walker{
+     margin-top: 15%;
+     background-color: white;
+     border-radius: 10px;
+     box-shadow: 0 0 10px grey;
+     width: 55%;
+     padding: 3%;
+     margin-left: 18%;
+     margin-right: 20%;  
+}
+.JW-Para1{
+     color: gray;
+}
+.JW-Para2{
+     color: rgb(88, 85, 85);
+}
+.John-Text{
+     margin-top: -22%;
+     margin-left: 20%;
+}
+.Team{
+     text-align: center;
+     margin-top: 15%;
+     width: 42%;
+     margin-left: 27%;
+     margin-right: 27%;
+}
+.Team-Para1{
+     color: #191D34;
+     font-size: 50px;
+     font-weight: 700;
+}
+.Team-Para2{
+     color: grey;
+     margin-top: -7%;
+     line-height: 25px;
+}
+.Team-Images{
+     margin-top: 10%;
+     align-items: center;
+     text-align: center;
+}
+.Cat-orange{
+     background-image: url(12th\ Assignment\ Web\ &\ App\ \(CSS\)\ Image\ 16.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+     color: white;
+     padding-top: 3%;
+     padding-bottom: 3%;
+     margin-top: 15%;
+}
+.COP1{
+     font-size: 50px;
+     font-weight: 900;
+}
+.COP2{
+     font-size: 25px;
+}
+.Cat-orange>button{
+     color: #ef3b0e;
+     background-color: white;
+     cursor: pointer;
+     border: none;
+     font-size: 18px;
+     font-weight: 500;
+     padding: 25px 55px;
+     margin-top: 4%;
+     border-radius: 35px;
+}
+.Cat-orange>span{
+     margin-left: 3%;
+}
+.Cat-orange>span>a{
+     color: white;
+     text-decoration: none;
+     margin-left: 2%;
+}
+.Cat-orange>span>a:hover{
+     text-decoration: underline;
+}
+footer{
+     background-color: #F8F8F8;
+     color: grey;
+     padding: 3%;
+     padding-left: 6%;
+
+}
+footer>div{
+     display: inline-block;
+}
+footer>div>ul{
+     list-style: none;
+     margin-left: -20%;
+}
+.FD2{
+     margin-left: 7%;
+}
+.FD3{
+     margin-left: 7%;
+}
+.FD4{
+     margin-left: 7%;
+}
+footer>div>ul>li{
+     cursor: pointer;
+}
+
+footer>div>ul>li>a{
+     color: gray;
+     text-decoration: none;
+     font-size: 20px;
+}
+footer>div>ul>li:hover{
+     color: #ef3b0e;
+}
+footer>div>ul>li>a:hover{
+     color: #ef3b0e;
+}
+.FOOT-DIV>li{
+     margin-left: 1%;
+}
+footer>div>svg{
+     fill: grey;
+     width: 2%;
+     height: 2%;
+}
+.footer-icons-1{
+     width: 10px;
+     cursor: pointer;
+}
+.footer-icons-2{
+     width: 15px;
+     margin-left: 1%;
+     cursor: pointer;
+}
+.footer-icons-3{
+     width: 25px;
+     margin-left: 1%;
+     cursor: pointer;
+}
+.footer-icons-4{
+     width: 20px;
+     margin-left: 1%;
+     cursor: pointer;
+}
+.footer-icons-1:hover{
+     fill: #ef3b0e;
+}
+.footer-icons-2:hover{
+     fill: #ef3b0e;
+}
+.footer-icons-3:hover{
+     fill: #ef3b0e;
+}
+.footer-icons-4:hover{
+     fill: #ef3b0e;
+}
+.Example-div{
+     margin-left: 30%;
+     margin-top: -40%;
+}
+.Example-div-1{
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 0 8px grey;
+     text-align: center;
+     padding: 3%;
+     padding-left: 6%;
+     padding-right: 6%;
+     width: fit-content;
+     margin-left: 60%;
+}
+.Example-div-2{
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 0 8px grey;
+     text-align: center;
+     padding: 3%;
+     padding-left: 6%;
+     padding-right: 6%;
+     width: fit-content;
+     margin-left: 35%;
+}
+.Example-div-3{
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 0 8px grey;
+     text-align: center;
+     padding: 3%;
+     padding-left: 6%;
+     padding-right: 6%;
+     width: fit-content;
+     margin-left: 60%;
+}
+.ES1{
+     color: #191D34;
+     font-size: 50px;
+     font-weight: 700;
+}
+.ES2{
+     color: grey;
+}
